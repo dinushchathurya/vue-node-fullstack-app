@@ -13,6 +13,7 @@ app.use(express.json());
 const users = [
   { id: 1, name: 'John Doe', email: 'john@example.com' },
   { id: 2, name: 'Jane Smith', email: 'jane@example.com' },
+  { id: 3, name: 'Jack White', email: 'jack@example.com' },
 ];
 
 // Simple API route to get user data
